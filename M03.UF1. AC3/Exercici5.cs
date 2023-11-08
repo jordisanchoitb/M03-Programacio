@@ -7,9 +7,9 @@
  */
 using System;
 
-namespace Exercici3
+namespace Exercici5
 {
-    class Exercici3
+    class Exercici5
     {
         static void Main()
         {
