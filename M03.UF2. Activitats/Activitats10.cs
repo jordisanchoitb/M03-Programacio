@@ -28,7 +28,7 @@ namespace Testing
             Random random = new Random();
             for (int i = 0; i < arraynumbers.Length; i++)
             {
-                arraynumbers[i] = random.Next(0, 200);
+                arraynumbers[i] = random.Next(201);
             }
 
             int j = 0;

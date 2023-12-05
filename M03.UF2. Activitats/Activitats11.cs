@@ -25,7 +25,7 @@ namespace Testing
 
             for (ulong i = 1; i <= number;i++)
             {
-                result = result * i;
+                result *= i;
             }
             return result;
         }

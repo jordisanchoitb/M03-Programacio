@@ -23,7 +23,7 @@ namespace Testing
             Random random = new Random();
             for (int i = 0; i < numbers; i++)
             {
-                Console.WriteLine(random.Next(0, 256));
+                Console.WriteLine(random.Next(257));
             }
         }
     }
