@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OGame_JordiSancho", "OGame_JordiSancho\OGame_JordiSancho.csproj", "{962AC6A5-34AE-4E16-9492-B3C9C85DBCF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OGameMethods", "OGameMethods\OGameMethods.csproj", "{34806869-ABAA-41A8-81AF-1D5BE7807673}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{962AC6A5-34AE-4E16-9492-B3C9C85DBCF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{962AC6A5-34AE-4E16-9492-B3C9C85DBCF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{962AC6A5-34AE-4E16-9492-B3C9C85DBCF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{962AC6A5-34AE-4E16-9492-B3C9C85DBCF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34806869-ABAA-41A8-81AF-1D5BE7807673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34806869-ABAA-41A8-81AF-1D5BE7807673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34806869-ABAA-41A8-81AF-1D5BE7807673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34806869-ABAA-41A8-81AF-1D5BE7807673}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7476BA97-45FF-4C4A-83EB-7FDEF203A02A}
+	EndGlobalSection
+EndGlobal

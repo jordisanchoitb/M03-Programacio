@@ -1,0 +1,14 @@
+F:\Exxamen PP2\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.exe
+F:\Exxamen PP2\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.deps.json
+F:\Exxamen PP2\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.runtimeconfig.json
+F:\Exxamen PP2\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll
+F:\Exxamen PP2\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.pdb
+F:\Exxamen PP2\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+F:\Exxamen PP2\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfoInputs.cache
+F:\Exxamen PP2\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfo.cs
+F:\Exxamen PP2\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+F:\Exxamen PP2\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.dll
+F:\Exxamen PP2\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\refint\ConsoleApp1.dll
+F:\Exxamen PP2\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb
+F:\Exxamen PP2\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
+F:\Exxamen PP2\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll

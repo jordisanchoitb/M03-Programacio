@@ -1,0 +1,11 @@
+F:\Exxamen PP2\ConsoleApp2\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.deps.json
+F:\Exxamen PP2\ConsoleApp2\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll
+F:\Exxamen PP2\ConsoleApp2\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.pdb
+F:\Exxamen PP2\ConsoleApp2\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+F:\Exxamen PP2\ConsoleApp2\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfoInputs.cache
+F:\Exxamen PP2\ConsoleApp2\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfo.cs
+F:\Exxamen PP2\ConsoleApp2\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.csproj.CoreCompileInputs.cache
+F:\Exxamen PP2\ConsoleApp2\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.dll
+F:\Exxamen PP2\ConsoleApp2\ClassLibrary1\obj\Debug\net8.0\refint\ClassLibrary1.dll
+F:\Exxamen PP2\ConsoleApp2\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.pdb
+F:\Exxamen PP2\ConsoleApp2\ClassLibrary1\obj\Debug\net8.0\ref\ClassLibrary1.dll

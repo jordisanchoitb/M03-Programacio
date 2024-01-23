@@ -1,0 +1,11 @@
+F:\Exxamen PP2\OGame_JordiSancho\OGameMethods\bin\Debug\net8.0\OGameMethods.deps.json
+F:\Exxamen PP2\OGame_JordiSancho\OGameMethods\bin\Debug\net8.0\OGameMethods.dll
+F:\Exxamen PP2\OGame_JordiSancho\OGameMethods\bin\Debug\net8.0\OGameMethods.pdb
+F:\Exxamen PP2\OGame_JordiSancho\OGameMethods\obj\Debug\net8.0\OGameMethods.GeneratedMSBuildEditorConfig.editorconfig
+F:\Exxamen PP2\OGame_JordiSancho\OGameMethods\obj\Debug\net8.0\OGameMethods.AssemblyInfoInputs.cache
+F:\Exxamen PP2\OGame_JordiSancho\OGameMethods\obj\Debug\net8.0\OGameMethods.AssemblyInfo.cs
+F:\Exxamen PP2\OGame_JordiSancho\OGameMethods\obj\Debug\net8.0\OGameMethods.csproj.CoreCompileInputs.cache
+F:\Exxamen PP2\OGame_JordiSancho\OGameMethods\obj\Debug\net8.0\OGameMethods.dll
+F:\Exxamen PP2\OGame_JordiSancho\OGameMethods\obj\Debug\net8.0\refint\OGameMethods.dll
+F:\Exxamen PP2\OGame_JordiSancho\OGameMethods\obj\Debug\net8.0\OGameMethods.pdb
+F:\Exxamen PP2\OGame_JordiSancho\OGameMethods\obj\Debug\net8.0\ref\OGameMethods.dll
