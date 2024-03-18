@@ -4,12 +4,7 @@
  * v1. 5/2/2024
  * 
  * Exercici x. 
- * 14. Implementa un mètode (diferent per a cada opció) que:
-comprovi que una cadena conté només un conjunt determinat de caràcters (en aquest cas a-z, A-Z i 0-9).
-comprovi si una cadena conté una a seguida de zero o més b's.
-comprovi si una cadena conté una a seguida de dos o tres b's.
-trobi seqüències de lletres minúscules unides amb un guió baix
-
+ * 
  * 
 */
 using System.Text.RegularExpressions;

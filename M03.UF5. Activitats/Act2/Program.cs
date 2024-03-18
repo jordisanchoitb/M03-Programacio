@@ -19,14 +19,15 @@ namespace OOPEx
             Pacient pacient = new Pacient("Bobby", "Golden Retriever", 5, true);
             Visita visita = new Visita(propietari, pacient, "Urgent");
             Visita visita2 = new Visita(propietari, pacient, new DateTime(2023, 4, 10), "Urgent");
-            Visita visita3 = new Visita(propietari, pacient, new DateTime(2026, 2, 12), "Urgent");
-            Visita visita4 = new Visita(propietari, pacient, new DateTime(2022, 6, 25), "Urgent");
+            Visita visita3 = new Visita(propietari, pacient, new DateTime(2026, 2, 12), "No Urgent");
+            Visita visita4 = new Visita(propietari, pacient, new DateTime(2022, 6, 25), "Parcial");
             Visita visita5 = new Visita(propietari, pacient, new DateTime(2021, 2, 15), "Urgent");
             List<Visita> visites = new List<Visita> { visita, visita2, visita3, visita4, visita5 };
+            Console.WriteLine($"|   Data   | Propietaria | Pacient |   Motiu   |\n" +
+                "|----------|-------------|---------|-----------|");
             foreach (Visita v in visites)
             {
                 Console.WriteLine(v);
-                Console.WriteLine();
             }
 
         }
