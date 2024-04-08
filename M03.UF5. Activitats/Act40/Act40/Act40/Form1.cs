@@ -34,8 +34,8 @@ namespace Act40
                 double[] notas = { Convert.ToDouble(txtBoxNota1.Text), Convert.ToDouble(txtBoxNota2.Text), Convert.ToDouble(txtBoxNota3.Text), Convert.ToDouble(txtBoxNota4.Text) };
                 Array.Sort(notas);
                 notabaja = notas[0];
-                txtBoxPromedioNotas.Text = notapromedio.ToString();
-                txtBoxNotaBaja.Text = notabaja.ToString();
+                txtBoxPromedioNotas.Text = $"{notapromedio:N2}";
+                txtBoxNotaBaja.Text = $"{notabaja:N2}";
                 if (notapromedio < 5)
                 {
                     txtBoxCondicion.Text = "Reprobado";
@@ -54,9 +54,11 @@ namespace Act40
 
         private static bool CheckIsDigit(string digit)
         {
+            if (digit.StartsWith(",")) return false;
+
             foreach (char c in digit)
             {
-                if (!char.IsDigit(c))
+                if (!char.IsDigit(c) && !c.Equals(','))
                 {
                     return false;
                 }
