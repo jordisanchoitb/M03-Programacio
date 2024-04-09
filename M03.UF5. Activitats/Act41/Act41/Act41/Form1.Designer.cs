@@ -34,15 +34,15 @@
             txtboxAlumno = new TextBox();
             buttCalc = new Button();
             buttClear = new Button();
-            lblnota1 = new Label();
             GboxNotas = new GroupBox();
+            comboBox4 = new ComboBox();
+            comboBox3 = new ComboBox();
+            comboBox2 = new ComboBox();
+            comboBox1 = new ComboBox();
             txtBoxNota4 = new TextBox();
             txtBoxNota3 = new TextBox();
             txtBoxNota2 = new TextBox();
-            lblnota4 = new Label();
             txtBoxNota1 = new TextBox();
-            lblnota3 = new Label();
-            lblnota2 = new Label();
             buttLeave = new Button();
             lblPromedioNotas = new Label();
             lblNotaBaja = new Label();
@@ -52,9 +52,11 @@
             txtBoxCondicion = new TextBox();
             NotasProvider = new ErrorProvider(components);
             AlumnoProvider = new ErrorProvider(components);
+            MPProvider = new ErrorProvider(components);
             GboxNotas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)NotasProvider).BeginInit();
             ((System.ComponentModel.ISupportInitialize)AlumnoProvider).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)MPProvider).BeginInit();
             SuspendLayout();
             // 
             // lblTitle
@@ -81,7 +83,7 @@
             txtboxAlumno.Location = new Point(16, 118);
             txtboxAlumno.Name = "txtboxAlumno";
             txtboxAlumno.Size = new Size(232, 23);
-            txtboxAlumno.TabIndex = 3;
+            txtboxAlumno.TabIndex = 1;
             txtboxAlumno.Validating += txtboxAlumno_Validating;
             // 
             // buttCalc
@@ -89,7 +91,7 @@
             buttCalc.Location = new Point(15, 150);
             buttCalc.Name = "buttCalc";
             buttCalc.Size = new Size(100, 39);
-            buttCalc.TabIndex = 4;
+            buttCalc.TabIndex = 6;
             buttCalc.Text = "CALCULAR";
             buttCalc.UseVisualStyleBackColor = true;
             buttCalc.Click += buttCalc_Click;
@@ -100,30 +102,21 @@
             buttClear.Location = new Point(121, 150);
             buttClear.Name = "buttClear";
             buttClear.Size = new Size(100, 39);
-            buttClear.TabIndex = 5;
+            buttClear.TabIndex = 7;
             buttClear.Text = "LIMPIAR";
             buttClear.UseVisualStyleBackColor = true;
             buttClear.Click += buttClear_Click;
             // 
-            // lblnota1
-            // 
-            lblnota1.AutoSize = true;
-            lblnota1.Location = new Point(6, 30);
-            lblnota1.Name = "lblnota1";
-            lblnota1.Size = new Size(43, 15);
-            lblnota1.TabIndex = 6;
-            lblnota1.Text = "NOTA1";
-            // 
             // GboxNotas
             // 
+            GboxNotas.Controls.Add(comboBox4);
+            GboxNotas.Controls.Add(comboBox3);
+            GboxNotas.Controls.Add(comboBox2);
+            GboxNotas.Controls.Add(comboBox1);
             GboxNotas.Controls.Add(txtBoxNota4);
             GboxNotas.Controls.Add(txtBoxNota3);
             GboxNotas.Controls.Add(txtBoxNota2);
-            GboxNotas.Controls.Add(lblnota4);
             GboxNotas.Controls.Add(txtBoxNota1);
-            GboxNotas.Controls.Add(lblnota3);
-            GboxNotas.Controls.Add(lblnota2);
-            GboxNotas.Controls.Add(lblnota1);
             GboxNotas.Location = new Point(277, 100);
             GboxNotas.Name = "GboxNotas";
             GboxNotas.Size = new Size(250, 89);
@@ -132,60 +125,81 @@
             GboxNotas.Text = "Registro de notas";
             GboxNotas.Validating += GboxNotas_Validating;
             // 
+            // comboBox4
+            // 
+            comboBox4.FormattingEnabled = true;
+            comboBox4.Items.AddRange(new object[] { "M02", "M03", "M04", "M05", "M06", "M07", "M08", "M09", "M11", "M15", "M16" });
+            comboBox4.Location = new Point(187, 25);
+            comboBox4.Name = "comboBox4";
+            comboBox4.Size = new Size(52, 23);
+            comboBox4.Sorted = true;
+            comboBox4.TabIndex = 18;
+            comboBox4.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox4.Validating += GboxMP_Validating;
+            // 
+            // comboBox3
+            // 
+            comboBox3.FormattingEnabled = true;
+            comboBox3.Items.AddRange(new object[] { "M02", "M03", "M04", "M05", "M06", "M07", "M08", "M09", "M11", "M15", "M16" });
+            comboBox3.Location = new Point(127, 25);
+            comboBox3.Name = "comboBox3";
+            comboBox3.Size = new Size(52, 23);
+            comboBox3.Sorted = true;
+            comboBox3.TabIndex = 17;
+            comboBox3.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox3.Validating += GboxMP_Validating;
+            // 
+            // comboBox2
+            // 
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Items.AddRange(new object[] { "M02", "M03", "M04", "M05", "M06", "M07", "M08", "M09", "M11", "M15", "M16" });
+            comboBox2.Location = new Point(67, 25);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(52, 23);
+            comboBox2.Sorted = true;
+            comboBox2.TabIndex = 16;
+            comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox2.Validating += GboxMP_Validating;
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "M02", "M03", "M04", "M05", "M06", "M07", "M08", "M09", "M11", "M15", "M16" });
+            comboBox1.Location = new Point(6, 25);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(52, 23);
+            comboBox1.Sorted = true;
+            comboBox1.TabIndex = 15;
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox1.Validating += GboxMP_Validating;
+            // 
             // txtBoxNota4
             // 
             txtBoxNota4.Location = new Point(187, 54);
             txtBoxNota4.Name = "txtBoxNota4";
             txtBoxNota4.Size = new Size(54, 23);
-            txtBoxNota4.TabIndex = 11;
+            txtBoxNota4.TabIndex = 5;
             // 
             // txtBoxNota3
             // 
             txtBoxNota3.Location = new Point(127, 54);
             txtBoxNota3.Name = "txtBoxNota3";
             txtBoxNota3.Size = new Size(54, 23);
-            txtBoxNota3.TabIndex = 12;
+            txtBoxNota3.TabIndex = 4;
             // 
             // txtBoxNota2
             // 
             txtBoxNota2.Location = new Point(67, 54);
             txtBoxNota2.Name = "txtBoxNota2";
             txtBoxNota2.Size = new Size(54, 23);
-            txtBoxNota2.TabIndex = 11;
-            // 
-            // lblnota4
-            // 
-            lblnota4.AutoSize = true;
-            lblnota4.Location = new Point(187, 30);
-            lblnota4.Name = "lblnota4";
-            lblnota4.Size = new Size(43, 15);
-            lblnota4.TabIndex = 9;
-            lblnota4.Text = "NOTA4";
+            txtBoxNota2.TabIndex = 3;
             // 
             // txtBoxNota1
             // 
             txtBoxNota1.Location = new Point(7, 54);
             txtBoxNota1.Name = "txtBoxNota1";
             txtBoxNota1.Size = new Size(54, 23);
-            txtBoxNota1.TabIndex = 10;
-            // 
-            // lblnota3
-            // 
-            lblnota3.AutoSize = true;
-            lblnota3.Location = new Point(127, 30);
-            lblnota3.Name = "lblnota3";
-            lblnota3.Size = new Size(43, 15);
-            lblnota3.TabIndex = 8;
-            lblnota3.Text = "NOTA3";
-            // 
-            // lblnota2
-            // 
-            lblnota2.AutoSize = true;
-            lblnota2.Location = new Point(67, 30);
-            lblnota2.Name = "lblnota2";
-            lblnota2.Size = new Size(43, 15);
-            lblnota2.TabIndex = 7;
-            lblnota2.Text = "NOTA2";
+            txtBoxNota1.TabIndex = 2;
             // 
             // buttLeave
             // 
@@ -260,6 +274,10 @@
             // 
             AlumnoProvider.ContainerControl = this;
             // 
+            // MPProvider
+            // 
+            MPProvider.ContainerControl = this;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -285,6 +303,7 @@
             GboxNotas.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)NotasProvider).EndInit();
             ((System.ComponentModel.ISupportInitialize)AlumnoProvider).EndInit();
+            ((System.ComponentModel.ISupportInitialize)MPProvider).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -296,11 +315,7 @@
         private TextBox txtboxAlumno;
         private Button buttCalc;
         private Button buttClear;
-        private Label lblnota1;
         private GroupBox GboxNotas;
-        private Label lblnota2;
-        private Label lblnota4;
-        private Label lblnota3;
         private Button buttLeave;
         private TextBox txtBoxNota4;
         private TextBox txtBoxNota3;
@@ -314,5 +329,10 @@
         private TextBox txtBoxCondicion;
         private ErrorProvider NotasProvider;
         private ErrorProvider AlumnoProvider;
+        private ComboBox comboBox4;
+        private ComboBox comboBox3;
+        private ComboBox comboBox2;
+        private ComboBox comboBox1;
+        private ErrorProvider MPProvider;
     }
 }
